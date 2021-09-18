@@ -23,23 +23,49 @@
             margin: 2rem;
             padding: 1rem;
         }
+
+        .header {
+            background-color: yellow;
+            padding: 5%;
+            padding: 2rem 5rem;
+        }
+
+        .footer {
+        background-color: yellow;
+        padding: 1rem 1rem;
+        text-align: center;
+        height: 20vh;
+}
+
     </style>
+
 
 </head>
 
 
 <body>
+    <header class=header>
     <h1>Banana Translator</h1>
+    </header>
     <textarea 
     id="txt-input" 
     placeholder="Put your sentence in the box and we will convert it to banana!"></textarea>
-    <button id="btn-translate">Translate</button>
+    <button id="btn-translate" style="margin:0rem 2rem;";>Translate</button>
 
-    <div style="font-size: larger;">Output will come below!</div>
+    <div style="font-size: larger; padding-top: 5%; padding-left: 5%;">Output will come below!</div>
     <div id="output"></div>
 
+   
 
     <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+        <h2 style="font-weight: bold;">About</h2>
+
+        <div>Banana Language is a very common language among Minions. The minions ....</div>
+
+    </footer>
+
 
 
 </body>
